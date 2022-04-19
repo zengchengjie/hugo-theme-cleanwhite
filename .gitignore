@@ -1,1 +1,5 @@
 .DS_Store
+/.idea/.gitignore
+/.idea/hugo-theme-cleanwhite.iml
+/.idea/modules.xml
+/.idea/vcs.xml
