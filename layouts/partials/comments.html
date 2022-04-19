@@ -23,7 +23,8 @@ var disq = new iDisqus('disqus-comment', {
 	site: '{{ .Site.Params.disqus_site }}',
     mode: 1,
     timeout: 5000,
-    init: true
+    init: true,
+    emojiPreview: true
 });
 </script>
 {{ else if .Site.DisqusShortname }}
